@@ -1,0 +1,11 @@
+
+Circle() 
+,onTapGesture {
+  buzz()
+}
+
+
+func buzz () {
+let generator = UInotificationFeedbackGenerator()
+generator.notificationOccured(.success)
+}
